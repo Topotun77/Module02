@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd95be8b-0423-4d16-99d5-b10f827c378a" name="Changes" comment="Выполнить задание 3 + test исправленный">
-      <change afterPath="$PROJECT_DIR$/.idea/Module02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Albom/Альбомы_создать_директории.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Albom/Альбомы_создать_директории.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework02-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework02-3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../les0/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../les0/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +36,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.03_code_style 4.executor": "Run",
+    "Python.calc.executor": "Run",
     "Python.homework02-1.executor": "Run",
     "Python.homework02-2.executor": "Run",
     "Python.homework02-3.executor": "Run",
