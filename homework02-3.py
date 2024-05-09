@@ -16,13 +16,13 @@ def step(x):
     if not(type(x) is dict or type(x) is set):
         return x*2
     else:
-        print(f'{type(x)} - Не могу умножить на 2. А когда я изучу исключения, то может выясню какие еще типы '
-              f'я не умею умножать.')
+        print(f'{type(x)} - Не могу умножить на 2. А когда я изучу исключения, то может выясню '
+              f'какие еще неупорядоченные типы я не умею умножать.')
         return type(x)
 
 
 def test_(*args):
-    # print(type(args))
+    print(*args)
     print(args)
     print(list(args))
     print(list(map(str, args)))
@@ -57,11 +57,13 @@ print(*dict_)
 def test_2(str1, list1):
     print(f'str1 = {str1}, list1 = {list1}')
 
-def test_3(**kwargs):  # только пока не понятно, как это может быть использовано, если можно просто
-    print(kwargs)      # сразу передавать словарь, а не распаковывать, а потом снова запаковывать его
+def test_3(**kw_args):  # только пока не понятно, как это может быть использовано, если можно просто
+    print(kw_args)      # сразу передавать словарь, а не распаковывать, а потом снова запаковывать его
+
+# test_2(**dict_)   # так не работает
 
 del dict_[3]
-test_2(**dict_)
+test_2(**dict_)     # а теперь работает
 
 dict_['3'] = 'три'
 test_3(**dict_)
